@@ -7,7 +7,7 @@
     "vsicons.dontShowNewVersionMessage": true,
     "workbench.startupEditor": "none",
     "http.proxyStrictSSL": false,
-    "editor.fontSize": 15,
+    "editor.fontSize": 14,
     "editor.fontWeight": "300",
     "editor.lineHeight": 25,
     "editor.codeActionsOnSave": {
@@ -35,5 +35,11 @@
     },
     "editor.minimap.enabled": false,
     "javascript.format.enable": true,
-    "typescript.preferences.quoteStyle": "double"
+    "typescript.preferences.quoteStyle": "double",
+    "search.location": "panel",
+    "files.autoSaveDelay": 100,
+    "window.zoomLevel": -1,
+    "files.autoSave": "onFocusChange",
+    "editor.tabSize": 2,
+    "editor.wordWrap": "on",
 }
