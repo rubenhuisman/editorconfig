@@ -5,7 +5,7 @@
     "workbench.colorTheme": "Halcyon",
     "vsicons.projectDetection.disableDetect": true,
     "vsicons.dontShowNewVersionMessage": true,
-    "workbench.startupEditor": "newUntitledFile",
+    "workbench.startupEditor": "none",
     "http.proxyStrictSSL": false,
     "editor.fontSize": 15,
     "editor.fontWeight": "300",
@@ -17,6 +17,7 @@
     "editor.formatOnSave": true,
     "files.exclude": {
         "**/node_modules/": true,
+        "**/bower_components/": true,
         "**/*.shproj": true,
         "**/*.user": true,
         "**/*.projitems": true,
@@ -26,7 +27,13 @@
         "**/*.tfignore": true,
         "**/packages/": true,
         "**/.vs/": true,
+        "**/.vscode/": true,
+        "**/.tmp/": true,
+        "**/report/": true,
+        "**/build/": true,
+        "**/_BuildScripts/": true
     },
     "editor.minimap.enabled": false,
     "javascript.format.enable": true,
+    "typescript.preferences.quoteStyle": "double"
 }
