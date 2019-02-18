@@ -1,0 +1,32 @@
+{
+    "editor.fontFamily": "Hasklig",
+    "editor.fontLigatures": true,
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorTheme": "Halcyon",
+    "vsicons.projectDetection.disableDetect": true,
+    "vsicons.dontShowNewVersionMessage": true,
+    "workbench.startupEditor": "newUntitledFile",
+    "http.proxyStrictSSL": false,
+    "editor.fontSize": 15,
+    "editor.fontWeight": "300",
+    "editor.lineHeight": 25,
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true,
+        "source.organizeImports": true
+    },
+    "editor.formatOnSave": true,
+    "files.exclude": {
+        "**/node_modules/": true,
+        "**/*.shproj": true,
+        "**/*.user": true,
+        "**/*.projitems": true,
+        "**/*.vspscc": true,
+        "**/*.vssscc": true,
+        "**/*.sln": true,
+        "**/*.tfignore": true,
+        "**/packages/": true,
+        "**/.vs/": true,
+    },
+    "editor.minimap.enabled": false,
+    "javascript.format.enable": true,
+}
