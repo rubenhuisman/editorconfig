@@ -33,6 +33,8 @@
         "**/build/": true,
         "**/_BuildScripts/": true,
         "**/dist/": true,
+        "**/bin/": true,
+        "**/obj/": true,
         "**/e2e/": true
     },
     "editor.minimap.enabled": false,
