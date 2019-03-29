@@ -33,8 +33,6 @@
         "**/build/": true,
         "**/_BuildScripts/": true,
         "**/dist/": true,
-        "**/bin/": true,
-        "**/obj/": true,
         "**/e2e/": true
     },
     "editor.minimap.enabled": false,
@@ -45,5 +43,6 @@
     "window.zoomLevel": -2,
     "files.autoSave": "onFocusChange",
     "editor.tabSize": 2,
-    "editor.wordWrap": "on"
+    "editor.wordWrap": "on",
+    "typescript.preferences.importModuleSpecifier": "relative"
 }
