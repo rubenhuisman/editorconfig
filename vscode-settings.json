@@ -4,7 +4,7 @@
     "workbench.colorTheme": "Halcyon",
     "workbench.startupEditor": "none",
     "http.proxyStrictSSL": false,
-    "editor.fontSize": 14,
+    "editor.fontSize": 16,
     "editor.fontWeight": "300",
     "editor.lineHeight": 20,
     "editor.codeActionsOnSave": {
@@ -31,7 +31,6 @@
         "**/_BuildScripts/": true,
         "**/dist/": true,
         "**/obj/": true,
-        "**/bin/": true,
         "**/Properties/": true,
         "**/e2e/": true,
     },
@@ -42,7 +41,7 @@
     "files.autoSaveDelay": 100,
     "window.zoomLevel": -1,
     "files.autoSave": "onFocusChange",
-    "editor.tabSize": 2,
+    "editor.tabSize": 4,
     "editor.wordWrap": "on",
     "typescript.preferences.importModuleSpecifier": "relative",
     "typescript.updateImportsOnFileMove.enabled": "always",
@@ -51,5 +50,10 @@
     "[json]": {
         "editor.defaultFormatter": "vscode.json-language-features"
     },
-    "explorer.confirmDelete": false
+    "explorer.confirmDelete": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "vsicons.dontShowNewVersionMessage": true,
+    "go.formatTool": "goimports",
+    "editor.cursorStyle": "line",
+    "editor.cursorWidth": 5
 }
