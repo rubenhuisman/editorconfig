@@ -55,5 +55,6 @@
     "vsicons.dontShowNewVersionMessage": true,
     "go.formatTool": "goimports",
     "editor.cursorStyle": "line",
-    "editor.cursorWidth": 5
+    "editor.cursorWidth": 5,
+    "explorer.compactFolders": false
 }
