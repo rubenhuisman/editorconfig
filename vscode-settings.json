@@ -4,12 +4,13 @@
     "workbench.colorTheme": "Halcyon",
     "workbench.startupEditor": "none",
     "http.proxyStrictSSL": false,
-    "editor.fontSize": 16,
-    "editor.fontWeight": "300",
+    "editor.fontSize": 18,
+    "editor.fontWeight": "100",
     "editor.lineHeight": 20,
     "editor.codeActionsOnSave": {
         "source.fixAll": true,
-        "source.organizeImports": true
+        "source.organizeImports": true,
+        "source.addMissingImports": true
     },
     "editor.formatOnSave": true,
     "files.exclude": {
