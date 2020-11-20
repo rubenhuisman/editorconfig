@@ -4,7 +4,7 @@
     "workbench.colorTheme": "Halcyon",
     "workbench.startupEditor": "none",
     "http.proxyStrictSSL": false,
-    "editor.fontSize": 18,
+    "editor.fontSize": 17,
     "editor.fontWeight": "100",
     "editor.lineHeight": 20,
     "editor.codeActionsOnSave": {
