@@ -1,2 +1,2 @@
 # editorconfig
-Repository for holding config files for editors (for now VSCODE only)
+Repository for holding config files for editors, tools, extensions, etc.
