@@ -4,8 +4,8 @@
     "workbench.colorTheme": "Halcyon",
     "workbench.startupEditor": "none",
     "http.proxyStrictSSL": false,
-    "editor.fontSize": 17,
-    "editor.fontWeight": "100",
+    "editor.fontSize": 14,
+    "editor.fontWeight": "400",
     "editor.lineHeight": 20,
     "editor.codeActionsOnSave": {
         "source.fixAll": true,
@@ -13,6 +13,11 @@
         "source.addMissingImports": true
     },
     "editor.formatOnSave": true,
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/*.code-search": true
+    },
     "files.exclude": {
         "**/node_modules/": true,
         "**/bower_components/": true,
@@ -40,7 +45,6 @@
     "javascript.preferences.quoteStyle": "double",
     "typescript.preferences.quoteStyle": "double",
     "files.autoSaveDelay": 100,
-    "window.zoomLevel": -1,
     "files.autoSave": "onFocusChange",
     "editor.tabSize": 4,
     "editor.wordWrap": "on",
@@ -54,8 +58,11 @@
     "explorer.confirmDelete": false,
     "javascript.updateImportsOnFileMove.enabled": "always",
     "vsicons.dontShowNewVersionMessage": true,
-    "go.formatTool": "goimports",
     "editor.cursorStyle": "line",
     "editor.cursorWidth": 5,
-    "explorer.compactFolders": false
+    "explorer.compactFolders": false,
+    "git.autofetch": true,
+    "go.toolsManagement.autoUpdate": true,
+    "workbench.editor.untitled.hint": "hidden",
+    "security.workspace.trust.untrustedFiles": "open"
 }
