@@ -1,0 +1,53 @@
+{
+  "timeStamp": 1673969331491,
+  "version": "1.46.0",
+  "userSettings": {
+    "externalLists": "https://gitcdn.xyz/repo/NanoMeow/MDLMirror/master/hosts.txt\nhttps://mirror.cedia.org.ec/malwaredomains/justdomains",
+    "importedLists": [
+      "https://gitcdn.xyz/repo/NanoMeow/MDLMirror/master/hosts.txt",
+      "https://mirror.cedia.org.ec/malwaredomains/justdomains"
+    ],
+    "popupPanelSections": 15
+  },
+  "selectedFilterLists": [
+    "ublock-quick-fixes",
+    "https://mirror.cedia.org.ec/malwaredomains/justdomains",
+    "https://gitcdn.xyz/repo/NanoMeow/MDLMirror/master/hosts.txt",
+    "urlhaus-1",
+    "user-filters",
+    "assets.json",
+    "public_suffix_list.dat",
+    "ublock-resources",
+    "ublock-filters",
+    "ublock-badware",
+    "ublock-privacy",
+    "ublock-abuse",
+    "ublock-unbreak",
+    "easylist",
+    "easyprivacy",
+    "malware-0",
+    "malware-1",
+    "plowe-0",
+    "NLD-0"
+  ],
+  "hiddenSettings": {},
+  "whitelist": [
+    "about-scheme",
+    "chrome-extension-scheme",
+    "chrome-scheme",
+    "moz-extension-scheme",
+    "opera-scheme",
+    "tfs.dnaservices.com",
+    "vergelijk.combimotors.nl",
+    "vivaldi-scheme",
+    "webspellchecker.com",
+    "www.espn.nl",
+    "www.ikea.com",
+    "www.voetbalshop.nl",
+    "wyciwyg-scheme"
+  ],
+  "dynamicFilteringString": "behind-the-scene * * noop\nbehind-the-scene * inline-script noop\nbehind-the-scene * 1p-script noop\nbehind-the-scene * 3p-script noop\nbehind-the-scene * 3p-frame noop\nbehind-the-scene * image noop\nbehind-the-scene * 3p noop",
+  "urlFilteringString": "",
+  "hostnameSwitchesString": "no-large-media: behind-the-scene false\nno-csp-reports: * true\nno-strict-blocking: mob1ledev1ces.com true\nno-strict-blocking: ad.doubleclick.net true\nno-strict-blocking: googleads.g.doubleclick.net true\nno-strict-blocking: r.srvtrck.com true\nno-strict-blocking: redirect.viglink.com true\nno-strict-blocking: www.kqzyfj.com true",
+  "userFilters": "! 2021-03-15 https://one.iex.nl\none.iex.nl##.pushdown\n\n! 2021-04-15 https://stackoverflow.com\nstackoverflow.com##.tex2jax_ignore.module\nstackoverflow.com##nav > .nav-links\nstackoverflow.com##.show-votes\n\n! 2021-04-24 https://www.litebit.eu\nwww.litebit.eu##tr[data-balance=\"0.00000000\"]\nwww.litebit.eu##tr[data-balance=\"0.000000\"]\n\n! 2022-01-03 https://monitor.iex.nl\nmonitor.iex.nl##.centerbanner\nmonitor.iex.nl##.header__inner\nmonitor.iex.nl##section[data-id=\"algemeen\"]\nmonitor.iex.nl##section[data-id=\"vs\"]\nmonitor.iex.nl##section[data-id=\"europa\"]\nmonitor.iex.nl##section[data-id=\"vk\"]\nmonitor.iex.nl##section[data-id=\"charts\"]\n\n! 2022-01-06 https://monitor.iex.nl\nmonitor.iex.nl###ctl00_contentTopFooter_Newsletter_UpdateForm\nmonitor.iex.nl##.skypromo\nmonitor.iex.nl##.disclaimer\nmonitor.iex.nl##.copy\n"
+}
